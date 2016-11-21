@@ -1,0 +1,11 @@
+Przy podejœciu wykorzystujacym RMI-IIOP nie trzeba pisac komunikacji sieciowej 
+poniewa¿ jest ona tworzona przez kompilator RMI w postaci namiastki, dziêki czemu 
+stworzenie klasy servera jest znacznie szybsze. Konieczne jest
+utworzenie interfejsu PhoneDirectoryInterface, który nie jest wymagany w podejsciu 
+wykorzystuj¹cym bezpoœrednie u¿ycie gniazd i TCP/IP, jednak nie wymaga to duzego nakladu pracy.  
+
+Przy podejœciu wykorzystujacym RMI-IIOP klient nie musi porozumiewac sie za pomoc¹ 
+strumieni, wystarczy poprostu wywolaæ odpowieni¹ metode zdalnego obiektu.
+
+Podejœcie wykorzystujace RMI-IIOP wymaga mniejszego nakladu pracy niz bezpoœrednie 
+u¿ycie gniazd i TCP/IP
